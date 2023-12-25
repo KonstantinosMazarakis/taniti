@@ -131,3 +131,96 @@ li {
   backdrop-filter: blur(20px);
   padding: 1rem;
 }
+
+.contAA {
+  backdrop-filter: blur(20px);
+  padding: 1rem;
+}
+
+
+
+
+
+/* Base styles here (applied to all devices) */
+
+/* iPhone 14 Pro Max (and similar devices) */
+@media only screen and (max-width: 1170px) {
+  .header {
+      /* Adjust header styles for smaller screens */
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .nav {
+      /* Adjust navigation styles */
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .nav li {
+      /* Adjust each navigation item */
+      padding: 5px;
+      text-align: center;
+  }
+
+  .socialMedia {
+      /* Adjust social media icons layout */
+      justify-content: center;
+      margin-top: 0.5rem;
+  }
+
+  .carouselSize {
+      /* Adjust carousel size */
+      width: 80%;
+      height: auto;
+  }
+
+  .section {
+      /* Adjust layout of sections */
+      flex-direction: column;
+  }
+
+  .resize {
+      /* Adjust card sizes */
+      width: 90%;
+      min-height: auto;
+  }
+
+  .imgCard {
+      /* Adjust image sizes within cards */
+      height: auto;
+  }
+
+  .welcome-text {
+      /* Adjust welcome text styles */
+      width: 90%;
+      font-size: 40px; /* Smaller font size */
+  }
+
+  /* Add additional styles as needed */
+}
+
+
+@media only screen and (max-width: 1170px) {
+  .activiesCont {
+      /* Adjust the layout of the activities container */
+      flex-direction: column;
+      align-items: center;
+      margin: 1rem 0;
+  }
+
+  .imgAct {
+      /* Adjust the image size within the activities container */
+      width: 100%;
+      max-width: 500px; /* Adjust max-width as needed */
+      height: auto;
+  }
+
+  .contA {
+      /* Adjust the content area within the activities container */
+      padding: 1rem;
+      text-align: center;
+  }
+
+  /* You can add more styles here to adjust text sizes, margins, paddings, etc., as needed */
+}
